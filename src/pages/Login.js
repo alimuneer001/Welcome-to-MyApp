@@ -90,9 +90,16 @@ const Login = () => {
               </div>
 
               <div className="text-sm">
-                <a href="#" className="font-medium text-blue-400 hover:text-blue-300">
+                <button
+                  type="button"
+                  onClick={() => {
+                    // Handle forgot password logic here
+                    console.log('Forgot password clicked');
+                  }}
+                  className="font-medium text-blue-400 hover:text-blue-300 focus:outline-none"
+                >
                   Forgot your password?
-                </a>
+                </button>
               </div>
             </div>
 
